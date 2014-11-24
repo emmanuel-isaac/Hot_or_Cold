@@ -64,8 +64,7 @@ html {
 
 
 .header {
-  /*border: thin solid;*/
-  margin: 200px auto 10px;
+  margin: 50px auto 10px;
   width: 30%;
   height: 100px;
   color: #fff;
@@ -73,7 +72,6 @@ html {
 
 h1 {
   font-size: 3em;
-  /*border: thin solid;*/
   text-align: center;
   font-family: Montserrat, sans-serif;
   padding-top: 30px;
@@ -83,10 +81,9 @@ h1 {
 }
 
 body p {
-  /*border: thin solid;*/
   text-align: center;
   width: 50%;
-  color: #fff;
+  color: #ff0000;
   margin: 0 auto;
   font-family: Raleway, sans-serif;
   font-style: italic;
@@ -116,41 +113,42 @@ input {
   display: block;
   margin: 10px auto;
   padding: 0 10px;
+  border-radius: 5px;
 }
 
 input:hover {
-  border: darkred thin solid;
+  border: thin solid blue;
 }
 
-button {
-  width: 100px;
-  height: 30px;
-  border: blue thin solid;
+#submit,
+#reset {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px 10px 15px;
+  font-family: Montserrat, sans-serif;
+  font-size: 1em;
   background: blue;
   color: #fff;
+  border: thin solid blue;
   border-radius: 5px;
-  margin: 0 10px;
 }
 
-button:hover {
-  border: darkred thin solid;
-  background: darkred;
-}
-
-.button {
-  /*border: thin solid;*/
-  margin: 20px auto 30px;
-
+#submit:hover,
+#reset:hover {
+  background: #fff;
+  color: blue;
+  border: blue thin solid;
 }
 
 #user-feedback {
-  font-size: 1.5em;
+  font-size: 1.2em;
   border: thin solid;
   border-color: blue;
   background: blue;
-  width: 30%;
+  width: 25%;
   margin: 0 auto;
   padding: 10px 20px;
+  border-radius: 5px;
 }
 
 

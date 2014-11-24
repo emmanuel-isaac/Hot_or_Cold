@@ -14,15 +14,15 @@
   </header>
   </div>
   <body>
-    <p>All you have to do is guess the secret number<br>When you approach the jackpot, you'll see a temperature boosting notification<br>Otherwise, you'll just become a polar bear!</p>
+    <p>All you have to do is guess the secret number<br>When you approach the jackpot, you'll see a temperature boosting notification<br>Otherwise, you'll just become a polar bear!<br>Start by guessing a number between 1 and 100</p>
 
     <form>
       <label for="user-entry">Your Guess</label>
       <input type="text" id="user-entry" name="user-entry">
 
-      <div class="button">
-      <button>Submit</button>
-      <button>New Game</button>
+      <div class="buttons">
+        <input type="submit" value="Submit" id="submit">
+        <input type="reset" value="New Game" id="reset">
       </div>
 
       <label id="user-feedback">Waiting for your guess!</label>
