@@ -7,12 +7,15 @@ var getRandom = function () {
 	return randomNumber;
 }
 
+
+
 var computerChoice = getRandom();
 console.log( "secret number is: " + computerChoice );
 
+
+
 var oldDifference = 100;
 var newDifference;
-
 var userPick;
 var userChoice;
 var submit;
@@ -35,7 +38,7 @@ var pick = function (e) {
   else if ( newDifference > oldDifference ) {
     document.getElementById("user-feedback").innerHTML = "You're getting colder";
   }
-}
+} // ends pick
 
 
   
@@ -49,10 +52,11 @@ submit.addEventListener("click", pick);
 
 } // ends chooseNumber
 
+
+
 chooseNumber();
 
 
 while (newDifference > 0) {
   chooseNumber();
-
 }
