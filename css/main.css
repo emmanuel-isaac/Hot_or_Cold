@@ -49,3 +49,148 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+
+/****************************
+HEADER
+****************************/
+
+html {
+  background: url('../img/background.jpg') no-repeat fixed 100% 100%;
+  opacity: .9;
+  height: 100%;
+}
+
+
+
+.header {
+  /*border: thin solid;*/
+  margin: 200px auto 10px;
+  width: 30%;
+  height: 100px;
+  color: #fff;
+}
+
+h1 {
+  font-size: 3em;
+  /*border: thin solid;*/
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  padding-top: 30px;
+  font-weight: 700;
+  word-spacing: 10px;
+
+}
+
+body p {
+  /*border: thin solid;*/
+  text-align: center;
+  width: 50%;
+  color: #fff;
+  margin: 0 auto;
+  font-family: Raleway, sans-serif;
+  font-style: italic;
+}
+
+form {
+  /*border: thin solid;*/
+  display: block;
+  margin: 20px auto;
+  color: #fff;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 20px;
+  font-family: Montserrat, sans-serif;
+  font-size: 2em;
+  font-weight: 400;
+}
+
+
+input {
+  width: 150px;
+  height: 40px;
+  border: #fff thin solid;
+  display: block;
+  margin: 10px auto;
+  padding: 0 10px;
+}
+
+input:hover {
+  border: darkred thin solid;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  border: blue thin solid;
+  background: blue;
+  color: #fff;
+  border-radius: 5px;
+}
+
+button:hover {
+  border: darkred thin solid;
+  background: darkred;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
