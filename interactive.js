@@ -21,7 +21,8 @@ var pick = function () {
     userChoice = userPick;
   }
 
-  else alert( "Please, refresh page and make a valid entry" );
+  // else alert( "Please, refresh page and make a valid entry" );
+  else document.getElementById("user-feedback").innerHTML = "Please, refresh page and make a valid entry";
 }
 
 
@@ -35,11 +36,11 @@ var difference = function () {
 // function to compare computer's choice and user's choice
 var comparison = function () {
   if ( newDifference == 0 ) {
-    alert( "You guessed right" );
+    document.getElementById("user-feedback").innerHTML = "You guessed right!!!";
   }
 
   if ( newDifference > 0 ) {
-    alert( "You're getting hotter" );
+    document.getElementById("user-feedback").innerHTML = "You're getting hotter!";
   }
 
 }
@@ -48,15 +49,15 @@ var comparison = function () {
 // by the user
 var newComparison = function () {
     if ( newDifference == 0 ) {
-      alert( "You guessed right" );
+      document.getElementById("user-feedback").innerHTML = "You guessed right!!!";
     }
 
     else if ( newDifference > oldDifference ) {
-      alert( "You're getting colder" );
+      document.getElementById("user-feedback").innerHTML = "You're getting colder, Polar bear!";
     }
 
     else if ( newDifference < oldDifference ) {
-      alert( "You're getting hotter" );
+      document.getElementById("user-feedback").innerHTML = "You're getting hotter!";
       oldDifference = newDifference;
     }
   }

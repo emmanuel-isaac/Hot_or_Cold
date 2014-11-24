@@ -129,11 +129,28 @@ button {
   background: blue;
   color: #fff;
   border-radius: 5px;
+  margin: 0 10px;
 }
 
 button:hover {
   border: darkred thin solid;
   background: darkred;
+}
+
+.button {
+  /*border: thin solid;*/
+  margin: 20px auto 30px;
+
+}
+
+#user-feedback {
+  font-size: 1.5em;
+  border: thin solid;
+  border-color: blue;
+  background: blue;
+  width: 30%;
+  margin: 0 auto;
+  padding: 10px 20px;
 }
 
 
