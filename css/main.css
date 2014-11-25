@@ -55,16 +55,23 @@ table {
 HEADER
 ****************************/
 
-html {
+.html {
   background: url('../img/background.jpg') no-repeat fixed 100% 100%;
   opacity: .9;
   height: 100%;
 }
 
-
+.body {
+  background: hsla( 0, 70%, 50%, .7 );
+  border: thin solid;
+  margin: 20px 25%;
+  padding: 50px 0;
+  border-radius: 20px;
+  border-color: hsla( 0, 70%, 50%, .7 );
+}
 
 .header {
-  margin: 50px auto 10px;
+  margin: 20px auto 10px;
   width: 30%;
   height: 100px;
   color: #fff;
@@ -77,20 +84,26 @@ h1 {
   padding-top: 30px;
   font-weight: 700;
   word-spacing: 10px;
+}
 
+.hot {
+  color: red;
+}
+
+.cold {
+  color: cyan;
 }
 
 body p {
   text-align: center;
   width: 50%;
-  color: #ff0000;
+  color: #fff;
   margin: 0 auto;
   font-family: Raleway, sans-serif;
   font-style: italic;
 }
 
 form {
-  /*border: thin solid;*/
   display: block;
   margin: 20px auto;
   color: #fff;
@@ -121,7 +134,7 @@ input:hover {
 }
 
 #submit,
-#reset {
+.newGame {
   display: inline-block;
   margin: 20px;
   padding: 10px 10px 15px;
@@ -131,10 +144,16 @@ input:hover {
   color: #fff;
   border: thin solid blue;
   border-radius: 5px;
+  text-decoration: none;
+}
+
+.newGame {
+  text-decoration: none;
+  padding: 10px 15px;
 }
 
 #submit:hover,
-#reset:hover {
+.newGame:hover {
   background: #fff;
   color: blue;
   border: blue thin solid;
@@ -150,62 +169,3 @@ input:hover {
   padding: 10px 20px;
   border-radius: 5px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

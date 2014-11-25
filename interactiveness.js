@@ -1,6 +1,7 @@
 // The Object Literal Pattern
 
 var gameController = {
+
 	getRandom: function () {
     var randomNumber = Math.ceil(Math.random() * 100);
     return randomNumber;
@@ -8,7 +9,7 @@ var gameController = {
 
   computerChoice: 0,
   oldDifference: 100,
-  newDifference: 0,
+  newDifference: NaN,
   userPick: 0,
   userChoice: 0,
   submit: null,
