@@ -37,6 +37,8 @@ var gameController = {
     else if ( this.game.newDifference > this.game.oldDifference ) {
       document.getElementById("user-feedback").innerHTML = "You're getting colder";
     }
+
+    this.game.userPick.value = '';
   },
 
   chooseNumber: function () {
