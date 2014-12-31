@@ -127,6 +127,7 @@ input {
   margin: 10px auto;
   padding: 0 10px;
   border-radius: 5px;
+  outline: 0;
 }
 
 input:hover {

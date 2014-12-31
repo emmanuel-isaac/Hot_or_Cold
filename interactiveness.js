@@ -2,7 +2,7 @@
 
 var gameController = {
 
-	getRandom: function () {
+  getRandom: function () {
     var randomNumber = Math.ceil(Math.random() * 100);
     return randomNumber;
   },
@@ -45,6 +45,12 @@ var gameController = {
     this.submit.game = this;
 
     this.submit.addEventListener("click", this.pick);
+  },
+
+  loop: function () {
+    while (this.gameController.newDifference > 0) {
+      this.gameController.chooseNumber();
+    }
   }
   
 };
@@ -53,9 +59,9 @@ gameController.init();
 
 gameController.chooseNumber();
 
+gameController.loop();
 
-while (gameController.newDifference > 0) {
-  gameController.chooseNumber();
-}
+
+
 
 
